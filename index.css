@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('imagens/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+header {
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 10px;
+    position: fixed;
+    top: 25;
+    left: 10;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.rodape {
+    background-color: darkblue; 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px; 
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    z-index: 9999;                                        
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5)
+
+}
+
+ .conteudo-rodape {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    width: 100%;
+    max-width: 1200px;
+ }        
+
+.rodape p {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    margin: 0;
+    font-size: 15px;
+    white-space: nowrap;
+  
+}
+
+.link-criador {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-left: 870px;
+    
+    
+}
+
+.link-criador:hover {
+    text-decoration: underline;
+
+}
+
+#info-criador {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.imagem-criador {
+    border-radius: 50%;
+    border: 5px solid green;
+    width: 150px;
+    height: 150px;
+}
+
+.titulo-texto-criador {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white; 
+    padding: 15px; 
+    border-radius: 5px; 
+    max-width: 400px; 
+    margin: 20px auto;
+    font-size: 15px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+
+.video-container, .imagem-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 20px; 
+}
+
+.video-pequeno {
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.cronograma {
+    margin-top: 180px; 
+}
+
+.cronograma h1 {
+    margin-bottom: 20px; 
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+
+.cronograma2 {
+    margin-top: 20px;
+}
+
+.cronograma2 table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin: 20px 0;
+}
+
+.cronograma2 th, .cronograma2 td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd; 
+}
+
+.cronograma2 th {
+    background-color: red; 
+    color: white;
+}
+
+.cronograma2 .horario {
+    background-color: yellow; 
+}
+
+.cronograma2 .evento {
+    background-color: #78d55c; 
+    color: black;
+}
+
+.cronograma2 .espaco {
+    background-color: #fce456; 
+}
+
+table {
+    border: 1px solid #ddd; 
+}
+
+th, td {
+    border: 1px solid #ddd; 
+}
+    
+
+h2 {
+    color:yellow;
+    text-align: center;
+    margin-top: 200px;
+}
+
+p {
+    color: whitesmoke;
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: large;
+    background-color: black;
+    opacity: 0.9;
+}
+
+#titulo, #texto {
+    display: none;
+}
+
+
+.contato-opcao {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contato-opcao.instagram {
+    background-color: #E1306C; 
+}
+
+.contato-opcao.linktree {
+    background-color: #1F3A3D; 
+}
+
+.contato-opcao.site-oficial {
+    background-color: #FF7F50; 
+}
+
+
+.logo-escola span {
+    position: relative;
+    top: -73.5px;
+    right: -159px;
+    margin: 0;
+    font-size: 24px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.logo-escola img.logo {
+    width: 130px;
+    height: 120px;
+    object-fit: cover;
+    padding: auto;
+    margin-right: 20px;
+    margin-top: -1px;
+
+}
+
+
+nav {
+    text-align: left;
+    padding-left: 635px;
+    margin-left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    margin: 70px 7px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 'Roboto', sans-serif;
+    font-size: 22px;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10px;
+}

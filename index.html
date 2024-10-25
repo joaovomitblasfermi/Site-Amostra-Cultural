@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amostra Cultural</title>
+    <link rel="stylesheet" href="index.css">
+      
+    <script src="script.js" defer></script>
+
+    <link rel="icon" type="image/png" sizes="16x16"  href="/favicons/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32"  href="/favicons/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
+<link rel="icon" type="image/png" sizes="96x96"  href="/favicons/apple-touch-icon-96x96.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/favicons/android-icon-192x192.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+
+<style>
+
+    .video-pequeno {
+        width: 320px;
+        height: auto;
+        border: 2px solid black;
+
+
+    }
+
+    #exposicoes {   
+        display: none;
+    }                   
+
+    .imagem-container {
+        border: 2px solid black;
+        max-width: 100%;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+    th, td {
+        padding: 10px;
+        text-align: center;
+    }
+    th {
+        background-color: red; 
+        color: white;
+    }
+    .horario {
+        background-color: yellow; 
+    }
+    .local {
+        background-color: darkgreen; 
+        color: white;
+    }
+    .exibicao {
+        background-color: darkblue; 
+        color: white;
+    }
+    .evento {
+        background-color: #78d55c; 
+        color: black;
+    }
+    .espaco {
+        background-color: #fce456; 
+        color: black;
+    }
+    
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo-escola">
+        <img src="imagens/logo.png" alt="Logo do site" class="logo">
+            <span>Amostra Cultural</span>
+    </div>
+  
+    <nav>
+        <ul>
+            <li><a href="#" id="link-sobre-a-amostra">Sobre a amostra</a></li>
+            <li><a href="#exposicoes" id="link-exposicoes">Exposições</a></li> 
+            <li><a href="#" id="link-programacao">Programação</a></li>
+            <li><a href="#Contato">Contato</a></li>
+        </ul>
+    </nav>
+    </header>
+
+
+    <section id="amostra-cultural">
+      <h2 id="titulo">Oque é a Amostra Cultural</h2>
+      <p id="texto">A amostra cultural realizada pelos alunos com o tema "Pernambuco" foi uma celebração da diversidade cultural e artística desse estado rico em história e tradições. A iniciativa permitiu que os estudantes se organizassem em diferentes grupos, cada um com uma missão criativa, para apresentar aspectos variados da cultura pernambucana. As atividades incluíram pintura, fotografia, poesia e rimas, peça teatral, gastronomia, curta-metragem ou documentário, além de apresentações musicais.
+
+        Cada grupo contribuiu com uma visão única sobre Pernambuco, explorando suas paisagens, sua arte e a expressão cultural de seu povo. 
+        </p>
+      
+</section>
+
+<div id="exposicoes">
+    <h2 style="color: yellow; text-align: center;">Exposições</h2>
+
+    <div class="video-container">
+        <h3 style="color: yellow;">Apresentação do maracatu e abertura do Evento</h3>
+        <video class="video-pequeno" controls>
+            <source src="videos/Abertura.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <h3 style="color: yellow;">Cinedebate, apresentação de curtas/documentários feito pelos alunos</h3>
+        <video class="video-pequeno" controls>
+            <source src="videos/Cinedebate.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <h3 style="color: yellow;">Feira gastronômica</h3>
+        <video class="video-pequeno" controls>
+            <source src="videos/Gastronomia.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="imagem-container">
+        <h3 style="color: yellow;">Apresentação de Pinturas e Fotografias</h3>
+        <img src="imagens/Exposição de fotos.jpg" alt="Exposição de fotos">
+    </div>
+
+    <div class="video-container">
+        <h3 style="color: yellow;">Imersão do mangue</h3>
+        <video class="video-pequeno" controls>
+            <source src="videos/Mangue.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <h3 style="color: yellow;">Apresentação de maracatu e fechamento do evento</h3>
+        <video class="video-pequeno" controls>
+            <source src="videos/Finalização.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+<div id="contato" style="display: none; text-align: center;">
+    <h2>Contate-nos</h2>
+    <div class="contato-opcao" style="background-color: #E1306C; display: inline-block; padding: 20px; margin: 10px; border-radius: 10px;">
+        <a href="https://www.instagram.com/senacpe/" style="color: white; text-decoration: none; font-size: 20px;">Instagram</a>
+    </div>
+    <div class="contato-opcao" style="background-color: #1F3A3D; display: inline-block; padding: 20px; margin: 10px; border-radius: 10px;">
+        <a href="https://linktr.ee/senacpernambuco?fbclid=PAZXh0bgNhZW0CMTEAAaZQZAOh0G2iGz1qioK-4JtUqPr4mLpk91vScfcsbx6Dz7zS1jh14PZNKWE_aem_-YeerMQQl-FiBoblbG5arA" style="color: white; text-decoration: none; font-size: 20px;">Linktree</a>
+    </div>
+    <div class="contato-opcao" style="background-color: #FF7F50; display: inline-block; padding: 20px; margin: 10px; border-radius: 10px;">
+        <a href="https://www.pe.senac.br/mediotec/" style="color: white; text-decoration: none; font-size: 20px;">Site Oficial</a>
+    </div>
+</div>
+
+
+<div class="cronograma" id="cronograma">
+    <h1>Dia 17</h1>
+    <table border="1">
+        <tr>
+            <th>Horário</th>
+            <th>Local</th>
+            <th>Exibição</th>
+        </tr>
+        <tr>
+            <td class="horario">8:00</td>
+            <td class="local">Espaço em frente a Sala Maker</td>
+            <td class="exibicao">Apresentação do maracatu e abertura do Evento</td>
+        </tr>
+        <tr>
+            <td class="horario">09:00</td>
+            <td class="local">Sala Multifuncional</td>
+            <td class="exibicao">Cinedebate, apresentação de curtas/documentários feito pelos alunos</td>
+        </tr>
+        <tr>
+            <td class="horario">10:30</td>
+            <td class="local">Espaço em frente a Sala Maker</td>
+            <td class="exibicao">Apresentação de Maracatu</td>
+        </tr>
+        <tr>
+            <td class="horario">11:30</td>
+            <td class="local">Espaço com toldos (área externa, por trás da sala maker)</td>
+            <td class="exibicao">Feira gastronômica</td>
+        </tr>
+        <tr>
+            <td class="horario">12:00</td>
+            <td class="local">Espaço em frente a Sala Maker</td>
+            <td class="exibicao">Apresentação de Pinturas e Fotografias</td>
+        </tr>
+        <tr>
+            <td class="horario">13:00</td>
+            <td class="local">Aquário 1º andar</td>
+            <td class="exibicao">Imersão do mangue</td>
+        </tr>
+        <tr>
+            <td class="horario">14:00</td>
+            <td class="local">Espaço em frente a Sala Maker</td>
+            <td class="exibicao">Apresentação de maracatu e fechamento do evento</td>
+        </tr>
+    </table>
+</div>
+
+<div class="cronograma" id="cronograma2">
+    <h1>Dia 18</h1>
+    <table>
+        <tr class="header">
+            <th class="horario">Horário</th>
+            <th class="evento">Evento</th>
+            <th class="espaco">Espaço</th>
+        </tr>
+        <tr>
+            <td class="horario">08:00</td>
+            <td class="evento">Espaços na área Externa</td>
+            <td class="espaco">Apresentação de Auto da Compadecida</td>
+        </tr>
+        <tr>
+            <td class="horario">09:00</td>
+            <td class="evento">Apresentação Musical 3°C</td>
+            <td class="espaco">Em frente a Sala Maker</td>
+        </tr>
+        <tr>
+            <td class="horario">09:30</td>
+            <td class="evento">Feira Gastronômica</td>
+            <td class="espaco">Área externa com toldos</td>
+        </tr>
+        <tr>
+            <td class="horario">10:30</td>
+            <td class="evento">Apresentação Musical</td>
+            <td class="espaco">Em frente a Sala Maker</td>
+        </tr>
+        <tr>
+            <td class="horario">11:00</td>
+            <td class="evento">Documentários, Arte Digital e Fotografias</td>
+            <td class="espaco">Sala multifuncional</td>
+        </tr>
+        <tr>
+            <td class="horario">12:30</td>
+            <td class="evento">Pinturas</td>
+            <td class="espaco">Em frente a Sala Maker</td>
+        </tr>
+        <tr>
+            <td class="horario">13:00</td>
+            <td class="evento">Jogos 2°C</td>
+            <td class="espaco">Sala Maker</td>
+        </tr>
+        <tr>
+            <td class="horario">13:30</td>
+            <td class="evento">Imersão (3°D)</td>
+            <td class="espaco">Sala 203</td>
+        </tr>
+        <tr>
+            <td class="horario">14:30</td>
+            <td class="evento">Apresentação Musical</td>
+            <td class="espaco">Espaço em frente a Sala Maker</td>
+        </tr>
+    </table>
+</div>
+
+<div id="info-criador" style="display: none; text-align: center;">
+    <img src="imagens/criador.png" alt="Criador" class="imagem-criador">
+    <h3 class="titulo-texto-criador">João Victor 1°B</h3>
+    <p class="titulo-texto-criador">Responsável pelo design e programação do site (HTML, CSS, JS).</p>
+</div>
+
+
+<footer class="rodape">
+    <p>© 2024 Amostra Cultural. Todos os direitos reservados.</p>
+    <a href="#" class="link-criador">Criador</a>
+</footer>
+
+</body>
+</html>
